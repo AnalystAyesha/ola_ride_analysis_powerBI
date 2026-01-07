@@ -25,13 +25,16 @@ The dataset used for this project includes ride records containing:
 - Power BI – Dashboard creation, data modeling, DAX calculations  
 - Microsoft Excel – Data cleaning and preprocessing  
 - DAX (Data Analysis Expressions) – Used for calculated measures and KPIs
+- SQL - Data extraction and transformation
 
 ## 4. Data Cleaning / Preparation
-Before loading the data into Power BI, the raw dataset was cleaned in Excel:
-- Checked for and removed duplicate records  
+Before loading the data into Power BI, the raw dataset was cleaned and prepared using *SQL and Microsoft Excel*:
+
+- Used SQL for data extraction, filtering relevant records, and removing duplicate entries  
+- Handled missing and inconsistent values using SQL queries  
 - Standardized column formats (e.g., dates, text)  
-- Handled missing and inconsistent values  
-- Prepared the dataset for more efficient analysis in Power BI
+- Verified and finalized the cleaned dataset in Excel  
+- Prepared the dataset for more efficient analysis and visualization in Power BI
 
 ## 5. Exploratory Data Analysis (EDA)
 Initial data exploration included:
